@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <h1>Challenges</h1>
+  </div>
+  <div class="row">
+    <% @challenges.each do |challenge| %>
+      <div class="col-xs-12">
+        <div class="card">
+          <span class="num-challenge"><%= (num = challenge.number) < 10 ? "0#{num}" : num %> | </span>
+          <span class="title-challenge"><%= challenge.title %></span>
+          <%= link_to "", challenge_path(challenge), class:"link-card" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>

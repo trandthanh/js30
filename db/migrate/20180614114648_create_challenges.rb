@@ -1,0 +1,10 @@
+class CreateChallenges < ActiveRecord::Migration[5.2]
+  def change
+    create_table :challenges do |t|
+      t.integer :number
+      t.string :title
+
+      t.timestamps
+    end
+  end
+end
