@@ -44,5 +44,4 @@ function challenge6() {
 
 }
 
-
-export { challenge6 };
+export { challenge6 }
