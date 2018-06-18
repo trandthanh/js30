@@ -20,3 +20,6 @@ import { challenge5 } from '../challenges/challenge5';
 const page5 = document.getElementById('challenge5');
 if (page5) { challenge5() }
 
+import { challenge6 } from '../challenges/challenge6';
+const page6 = document.getElementById('challenge6');
+if (page6) { challenge6() }
