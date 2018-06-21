@@ -44,4 +44,8 @@ import { challenge11 } from '../challenges/challenge11';
 const page11 = document.getElementById('challenge11');
 if (page11) { challenge11() }
 
+  import { challenge12 } from '../challenges/challenge12';
+const page12 = document.getElementById('challenge12');
+if (page12) { challenge12() }
+
 
