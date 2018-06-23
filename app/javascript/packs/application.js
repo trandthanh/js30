@@ -44,8 +44,15 @@ import { challenge11 } from '../challenges/challenge11';
 const page11 = document.getElementById('challenge11');
 if (page11) { challenge11() }
 
-  import { challenge12 } from '../challenges/challenge12';
+import { challenge12 } from '../challenges/challenge12';
 const page12 = document.getElementById('challenge12');
 if (page12) { challenge12() }
 
+import { challenge13 } from '../challenges/challenge13';
+const page13 = document.getElementById('challenge13');
+if (page13) { challenge13() }
+
+import { challenge14 } from '../challenges/challenge14';
+const page14 = document.getElementById('challenge14');
+if (page14) { challenge14() }
 
