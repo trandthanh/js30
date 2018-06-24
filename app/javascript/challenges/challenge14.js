@@ -78,21 +78,21 @@ function challenge14() {
 
   // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
 
-  const wes = {
-    name: 'Wes',
-    age: 100,
-    social {
-      twitter: '@wesbos',
-      facebook: 'wesbos.developer'
-    }
-  }
-  console.clear();
-  console.log(wes);
+  // const wes = {
+  //   name: 'Wes',
+  //   age: 100,
+  //   social {
+  //     twitter: '@wesbos',
+  //     facebook: 'wesbos.developer'
+  //   }
+  // }
+  // console.clear();
+  // console.log(wes);
 
-  const dev = Object.assign({}, wes);
+  // const dev = Object.assign({}, wes);
 
-  // clone deep
-  const dev2 = JSON.parse(JSON.stringify(wes));
+  // // clone deep
+  // const dev2 = JSON.parse(JSON.stringify(wes));
 }
 
 export { challenge14 };
