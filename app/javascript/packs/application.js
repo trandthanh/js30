@@ -60,3 +60,10 @@ import { challenge15 } from '../challenges/challenge15';
 const page15 = document.getElementById('challenge15');
 if (page15) { challenge15() }
 
+import { challenge16 } from '../challenges/challenge16';
+const page16 = document.getElementById('challenge16');
+if (page16) { challenge16() }
+
+import { challenge17 } from '../challenges/challenge17';
+const page17 = document.getElementById('challenge17');
+if (page17) { challenge17() }
