@@ -95,3 +95,7 @@ if (page23) { challenge23() }
 import { challenge24 } from '../challenges/challenge24';
 const page24 = document.getElementById('challenge24');
 if (page24) { challenge24() }
+
+import { challenge25 } from '../challenges/challenge25';
+const page25 = document.getElementById('challenge25');
+if (page25) { challenge25() }
